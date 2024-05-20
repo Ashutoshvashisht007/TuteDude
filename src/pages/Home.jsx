@@ -16,7 +16,7 @@ const Home = () => {
     <div className='home'>
       <div className='homeHeading'>
         <div className='homeHeadingUni'>
-          <img className='gradLogo' src="/src/assets/grad.png" alt="Grad Logo" />
+          <img className='gradLogo' src="public/grad.png" alt="Grad Logo" />
           <span className='gradHeading'>An <b>IIT Delhi</b> Alumni Initiative</span>
         </div>
         <div className="homeHeadingContent">
@@ -27,26 +27,26 @@ const Home = () => {
         <span className='homeHeadingSpanCourses'> 5+ extensive online courses.</span>
         <div className='homeHeadingCertificates'>
           <div className='homeHeadingCertificates1'>
-            <img src="/src/assets/award_star.png " alt="Star" />
+            <img src="public/award_star.png " alt="Star" />
             <span>Personal Mentorship</span>
           </div>
           <div className="homeHeadingCertificates2">
-            <img src="/src/assets/award_star.png " alt="Star" />
+            <img src="public/award_star.png " alt="Star" />
             <span>Internship Assistance</span>
           </div>
           <div className="homeHeadingCertificates3">
-            <img src="src/assets/award_star.png " alt="Star" />
+            <img src="public/award_star.png " alt="Star" />
             <span>Industry Certified Courses</span>
           </div>
         </div>
         <div className="homeHeadingEnroll">
           <button className="homeHeadingEnrollbtn">
             <span className='homeHeadingEnrollSpan'>Enroll Now</span>
-            <img className='homeHeadingEnrollImg' src="src/assets/Group.png" alt="Enroll" />
+            <img className='homeHeadingEnrollImg' src="public/Group.png" alt="Enroll" />
           </button>
           <button className="homeHeadingKnowMore">
             <span className='homeHeadingKnowMoreSpan'>Know More</span>
-            <img className='homeHeadingKnowMoreImg' src="src/assets/questionmark.png" alt="?" />
+            <img className='homeHeadingKnowMoreImg' src="public/questionmark.png" alt="?" />
           </button>
         </div>
       </div>
@@ -88,7 +88,7 @@ const Home = () => {
             />
           </div>
           <span className='homeStepsRefundableEnds'>
-            <img className='homeStepsRefundableEndsImg' src="src/assets/time.png" alt="Time" />
+            <img className='homeStepsRefundableEndsImg' src="public/time.png" alt="Time" />
             <span className='homeStepsRefundableEndsSpan'>Offer ends in 10:00Mins</span>
           </span>
         </div>
@@ -96,15 +96,15 @@ const Home = () => {
           <span className='homeStepsWorkingHeading'>How does it work?</span>
           <div className='homeStepsAll'>
             <div className="homeSteps1">
-              <img src="src/assets/step1.png" alt="Step 1" />
+              <img src="public/step1.png" alt="Step 1" />
               <div className='homeSteps1Div'>
                 <span className='homeSteps1_1'>Step 1 : Enroll into your favorite course for only ₹1,499</span>
-                <img style={{ width: "107px", height: "69px", marginTop: "16px" }} src="src/assets/Frame.png" alt="Frame" />
+                <img style={{ width: "107px", height: "69px", marginTop: "16px" }} src="public/Frame.png" alt="Frame" />
                 <span className='homeSteps1_2'>Start Learning with <b>Lifetime Course Access.</b></span>
               </div>
             </div>
             <div className="homeSteps2">
-              <img src="src/assets/step2.png" alt="Step 2" />
+              <img src="public/step2.png" alt="Step 2" />
               <div className='homeSteps2Div'>
                 <span className='homeSteps2_1'>Step 2: Complete Course & Assignments within 2 Years!</span>
                 <div className='homeSteps2_2'>
@@ -115,7 +115,7 @@ const Home = () => {
               </div>
             </div>
             <div className="homeSteps3">
-              <img src="src/assets/step3.png" alt="Step 3" />
+              <img src="public/step3.png" alt="Step 3" />
               <div className='homeSteps3Div'>
                 <span className='homeSteps3_1'>Step 3: Receive 100% Refund upon completion</span>
                 <div className='homeSteps3_2'>
@@ -140,14 +140,14 @@ const Home = () => {
         <div className='certficatesDiv'>
           <div className='certifcatesDiv1'>
             <span className='certifcatesDiv1Heading'>Get 6 Industry Recognized Certificates!</span>
-            <img className='certifcatesDiv1Img' src="src/assets/certificate1.png" alt="Certificate" />
+            <img className='certifcatesDiv1Img' src="public/certificate1.png" alt="Certificate" />
             <div className='certifcatesDiv1Btns'>
               <span className='cerrificatesTags'>
-                <img src="src/assets/award_star1.png" alt="Award" />
+                <img src="public/award_star1.png" alt="Award" />
                 <span className='cerrificatesTagsSpan'>Official and Verified</span>
               </span>
               <span className='cerrificatesTags'>
-                <img src="src/assets/award_star1.png" alt="Award" />
+                <img src="public/award_star1.png" alt="Award" />
                 <span className='cerrificatesTagsSpan'>Enhances Credibility</span>
               </span>
             </div>
@@ -157,14 +157,14 @@ const Home = () => {
               <span className='certifcatesDiv2_1_1'>Bag Internship Opportunities!</span>
               <span className='certifcatesDiv2_1_2'>With every course, we make you not only industry-ready but also help you crack your first internship.</span>
             </div>
-            <img className='certifcatesDiv2_2' src="src/assets/Imagee.png" alt="Image" />
+            <img className='certifcatesDiv2_2' src="public/Imagee.png" alt="Image" />
           </div>
         </div>
       </div>
 
       <div className='internship'>
         <span className='intershipHeading'>How does the Internship Program works ?</span>
-        <img className='internshipDetails' src="src/assets/intern.png" alt="Internship" />
+        <img className='internshipDetails' src="public/intern.png" alt="Internship" />
         <button className='internshipBtn'>Apply now for ₹ 2999</button>
       </div>
     </div>
