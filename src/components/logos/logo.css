@@ -1,0 +1,53 @@
+.logoo{
+    margin-top: 200px;
+    background-color: #FFFCEA;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 28px;
+    padding: 48px;
+}
+
+.logoHeading{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logoHeading1{
+    font-weight: 700;
+    font-size: 48px;
+    color: #374957;
+}
+
+.logoHeading2{
+    font-weight: 700;
+    font-size: 48px;
+    background: linear-gradient(92.04deg, #B73BBE 49.96%, #EBCB2E 99.23%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+
+
+.logoAll{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 22px;
+}
+
+.logos{
+    background-color: #FFFFFF;
+    padding: 10px;
+    gap: 10px;
+    border-radius: 24px;
+    width: 257px;
+    height: 133px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 32px;
+    color: #374957;
+}
