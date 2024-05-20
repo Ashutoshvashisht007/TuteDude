@@ -1,21 +1,21 @@
 export const stats = [
     {
-        img: "public/Online.png",
+        img: "images/Online.png",
         data: "24",
         name: "Courses"        
     },
     {
-        img: "public/Graduated.png",
+        img: "images/Graduated.png",
         data: "30k+",
         name: "Learners"        
     },
     {
-        img: "public/questionCloud.png",
+        img: "images/questionCloud.png",
         data: "100k+",
         name: "Doubts Solved"        
     },
     {
-        img: "public/Complete.png",
+        img: "images/Complete.png",
         data: "10k+",
         name: "Student Projects"        
     },

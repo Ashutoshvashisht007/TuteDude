@@ -20,7 +20,7 @@ const CoursesData = () => {
                                 </span>
                             </div>
                             <button className='coursesDataInfoBtn'>
-                                <img src="public/eye.png" className='coursesDataInfoImg' alt="Eye" />
+                                <img src="images/eye.png" className='coursesDataInfoImg' alt="Eye" />
                                 <span className='coursesDataInfoBtnText'>View Curriculum</span>
                             </button>
                         </div>
