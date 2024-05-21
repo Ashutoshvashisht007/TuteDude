@@ -23,8 +23,11 @@ const Home = () => {
           <span className='paraBlack'>Become an Expert in the field of</span>
           <span className='paraPurple'>Data Science with 6 courses</span>
         </div>
-        <span className='homeHeadingSpan'>A specially crafted Tech Kickstarter, with</span>
-        <span className='homeHeadingSpanCourses'> 5+ extensive online courses.</span>
+        <div className='homeHeadingSpans'>
+          <span className='homeHeadingSpan'>A specially crafted Tech Kickstarter, with</span>
+          <span className='homeHeadingSpanCourses'> 5+ extensive online courses.</span>
+        </div>
+
         <div className='homeHeadingCertificates'>
           <div className='homeHeadingCertificates1'>
             <img src="images/award_star.png " alt="Star" />
@@ -143,16 +146,16 @@ const Home = () => {
             <img className='certifcatesDiv1Img' src="images/certificate1.png" alt="Certificate" />
             <div className='certifcatesDiv1Btns'>
               <span className='cerrificatesTags'>
-                <img src="images/award_star1.png" alt="Award" />
+                <img className='cerrificatesTagsImg' src="images/award_star1.png" alt="Award" />
                 <span className='cerrificatesTagsSpan'>Official and Verified</span>
               </span>
               <span className='cerrificatesTags'>
-                <img src="images/award_star1.png" alt="Award" />
+                <img className='cerrificatesTagsImg' src="images/award_star1.png" alt="Award" />
                 <span className='cerrificatesTagsSpan'>Enhances Credibility</span>
               </span>
             </div>
           </div>
-          <div className='certifcatesDiv2'> 
+          <div className='certifcatesDiv2'>
             <div className='certifcatesDiv2_1'>
               <span className='certifcatesDiv2_1_1'>Bag Internship Opportunities!</span>
               <span className='certifcatesDiv2_1_2'>With every course, we make you not only industry-ready but also help you crack your first internship.</span>
@@ -165,6 +168,7 @@ const Home = () => {
       <div className='internship'>
         <span className='intershipHeading'>How does the Internship Program works ?</span>
         <img className='internshipDetails' src="images/intern.png" alt="Internship" />
+        <img className='internshipDetails1' src="images/learn.png" alt="Internship" />
         <button className='internshipBtn'>Apply now for ₹ 2999</button>
       </div>
     </div>

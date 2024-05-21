@@ -1,8 +1,7 @@
 .coursesData{
     background-color: white;
     width: 61vw;
-    border: 1px solid #E5E5E8;
-    border-radius: 28px;
+    border: none;
     margin-top: 56px;
 }
 
@@ -11,6 +10,8 @@
     align-items: flex-start;
     justify-content: space-between;
     flex-direction: column;
+    border: 1px solid #E5E5E8;
+    border-radius: 28px;
 }
 
 .temp{
@@ -61,4 +62,44 @@
     color: #B73BBE;
     font-weight: 500;
     font-size: 20px;
+}
+
+@media only screen and (max-width: 700px){
+    .coursesData{
+        margin-top: 40px;
+    }  
+
+    .temp{
+        gap: 12px;
+        flex-direction: column;
+    }
+    
+    .coursesDataInfoText{
+        gap: 4px;
+    }
+    
+    .coursesDataInfoName{
+        font-size: 20px;
+    }
+    
+    .coursesDataInfoDesc{
+        font-size: 14px;
+    }
+
+    .coursesDataInfoBtn{
+        justify-content: center;
+        gap: 8px;
+        padding: 16px 20px 16px 20px;
+        border-radius: 12px;
+        width: 40vw;
+    }
+
+    .coursesDataInfoImg{
+        width: 20px;
+        height: 20px;
+    }
+    
+    .coursesDataInfoBtnText{
+        font-size: 16px;
+    }
 }

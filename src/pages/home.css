@@ -1,6 +1,6 @@
 .homeHeading {
     margin: 77px 0 0 128px;
-    width: 790px;
+    width: 52vw;
 }
 
 .homeHeadingUni {
@@ -292,7 +292,7 @@
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
 }
 
-.homeStepsWorking{
+.homeStepsWorking {
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -300,13 +300,13 @@
     gap: 24px;
 }
 
-.homeStepsWorkingHeading{
+.homeStepsWorkingHeading {
     font-weight: 700;
     font-size: 36px;
     color: #450D45;
 }
 
-.homeStepsAll{
+.homeStepsAll {
     display: flex;
     align-items: center;
     gap: 22px;
@@ -316,15 +316,15 @@
     margin-top: 24px;
 }
 
-.homeSteps1{
-    
+.homeSteps1 {
+
     display: flex;
     align-items: center;
     gap: 22px;
     flex-direction: column;
 }
 
-.homeSteps1Div{
+.homeSteps1Div {
     margin-top: 22px;
     background: linear-gradient(180deg, #FFFFFF 0%, #FCF5FE 100%);
     display: flex;
@@ -336,27 +336,27 @@
     gap: 16px;
 }
 
-.homeSteps1_1{
+.homeSteps1_1 {
     /* margin-top: 20px; */
     color: #7F2781;
     font-weight: 600;
     font-size: 20px;
 }
 
-.homeSteps1_2{
+.homeSteps1_2 {
     margin-top: 16px;
     font-weight: 400;
     font-size: 14px;
 }
 
-.homeSteps2{
+.homeSteps2 {
     display: flex;
     align-items: center;
     gap: 22px;
     flex-direction: column;
 }
 
-.homeSteps2Div{
+.homeSteps2Div {
     margin-top: 22px;
     background: linear-gradient(180deg, #FFFFFF 0%, #FCF5FE 100%);
     display: flex;
@@ -368,13 +368,13 @@
     gap: 16px;
 }
 
-.homeSteps2_1{
+.homeSteps2_1 {
     color: #7F2781;
     font-weight: 600;
     font-size: 20px;
 }
 
-.homeSteps2_2{
+.homeSteps2_2 {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -384,7 +384,7 @@
     border: 1px solid #E5E5E8;
 }
 
-.homeSteps2_2_1{
+.homeSteps2_2_1 {
     font-weight: 700;
     font-size: 40px;
     background: linear-gradient(180deg, #FFA50B 0%, #E27900 93.51%);
@@ -392,24 +392,24 @@
     -webkit-background-clip: text;
 }
 
-.homeSteps2_2_2{
+.homeSteps2_2_2 {
     font-weight: 400;
     font-size: 14px;
 }
 
-.homeSteps2_3{
+.homeSteps2_3 {
     font-weight: 500;
     font-size: 14px;
 }
 
-.homeSteps3{
+.homeSteps3 {
     display: flex;
     align-items: center;
     gap: 22px;
     flex-direction: column;
 }
 
-.homeSteps3Div{
+.homeSteps3Div {
     margin-top: 22px;
     background: linear-gradient(180deg, #FFFFFF 0%, #FCF5FE 100%);
     display: flex;
@@ -421,13 +421,13 @@
     gap: 16px;
 }
 
-.homeSteps3_1{
+.homeSteps3_1 {
     color: #7F2781;
     font-weight: 600;
     font-size: 20px;
 }
 
-.homeSteps3_2{
+.homeSteps3_2 {
     display: flex;
     align-items: center;
     /* justify-content: center; */
@@ -437,7 +437,7 @@
     border-radius: 14px;
 }
 
-.homeSteps3_2_1{
+.homeSteps3_2_1 {
     font-weight: 700;
     font-size: 32px;
     background: linear-gradient(180deg, #FFA50B 0%, #E27900 93.51%);
@@ -445,17 +445,17 @@
     -webkit-background-clip: text;
 }
 
-.homeSteps3_2_2{
+.homeSteps3_2_2 {
     font-weight: 400;
     font-size: 14px;
 }
 
-.homeSteps3_3{
+.homeSteps3_3 {
     font-weight: 500;
     font-size: 14px;
 }
 
-.certificates{
+.certificates {
     margin-top: 96px;
     display: flex;
     flex-direction: column;
@@ -464,35 +464,38 @@
     padding: 96px 128px 96px 128px;
 }
 
-.certificatesHeading{
+.certificatesHeading {
     display: flex;
     align-items: center;
     font-weight: 600;
     font-size: 42px;
     gap: 10px;
 }
-.certificatesHeading1{
-    color: #686972;
-}
-.certificatesHeading2{
-    color: #992E9D;
-}
-.certificatesHeading3{
+
+.certificatesHeading1 {
     color: #686972;
 }
 
-.certificatesHeading4{
+.certificatesHeading2 {
     color: #992E9D;
 }
 
-.certficatesDiv{
+.certificatesHeading3 {
+    color: #686972;
+}
+
+.certificatesHeading4 {
+    color: #992E9D;
+}
+
+.certficatesDiv {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 40px;
 }
 
-.certifcatesDiv1{
+.certifcatesDiv1 {
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -503,14 +506,14 @@
     padding: 36px;
 }
 
-.certifcatesDiv1Heading{
+.certifcatesDiv1Heading {
     font-weight: 600;
     font-size: 28px;
     text-align: center;
     color: #450D45;
 }
 
-.certifcatesDiv1Img{
+.certifcatesDiv1Img {
     width: 454.59px;
     height: 321.37px;
     border-radius: 10.95px;
@@ -518,14 +521,14 @@
     margin-top: 30px;
 }
 
-.certifcatesDiv1Btns{
+.certifcatesDiv1Btns {
     display: flex;
     align-items: center;
     gap: 14px;
     margin-top: 30px;
 }
 
-.cerrificatesTags{
+.cerrificatesTags {
     display: flex;
     align-items: center;
     gap: 6px;
@@ -534,13 +537,13 @@
     border-radius: 100px;
 }
 
-.cerrificatesTagsSpan{
+.cerrificatesTagsSpan {
     color: #992E9D;
     font-weight: 400;
     font-size: 16px;
 }
 
-.certifcatesDiv2{
+.certifcatesDiv2 {
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -551,31 +554,31 @@
     border-radius: 24px;
 }
 
-.certifcatesDiv2_1{
+.certifcatesDiv2_1 {
     display: flex;
     align-items: flex-start;
     flex-direction: column;
     gap: 4px;
 }
 
-.certifcatesDiv2_1_1{
+.certifcatesDiv2_1_1 {
     font-weight: 600;
     font-size: 26px;
     color: #481900;
 }
 
-.certifcatesDiv2_1_2{
+.certifcatesDiv2_1_2 {
     font-weight: 400;
     font-size: 16px;
     color: #686972;
 }
 
-.certifcatesDiv2_2{
+.certifcatesDiv2_2 {
     width: 417px;
     height: 417px;
 }
 
-.internship{
+.internship {
     margin-top: 100px;
     display: flex;
     align-items: center;
@@ -583,7 +586,7 @@
     padding: 83px 112px 132px 112px;
 }
 
-.intershipHeading{
+.intershipHeading {
     font-weight: 700;
     font-size: 36px;
     background: linear-gradient(180deg, #B872D0 0%, #372FAA 100%);
@@ -591,11 +594,15 @@
     -webkit-background-clip: text;
 }
 
-.internshipDetails{
+.internshipDetails {
     margin-top: 40px;
 }
 
-.internshipBtn{
+.internshipDetails1 {
+    display: none;
+}
+
+.internshipBtn {
     margin-top: 35px;
     background: linear-gradient(176.18deg, #800080 -2.53%, #7E267E 27.29%);
     font-weight: 600;
@@ -605,4 +612,310 @@
     color: white;
     border: none;
     cursor: pointer;
+}
+
+@media only screen and (max-width: 800px) {
+    .homeHeading {
+        padding: 28px 24px 28px 24px;
+        gap: 28px;
+        width: 100vw;
+        margin: 40px 0 0 0;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .homeHeadingContent {
+        font-size: 36px;
+        line-height: 46.8px;
+    }
+
+    .homeHeadingSpan {
+        font-weight: 400;
+        font-size: 16px;
+    }
+
+    .homeHeadingSpanCourses {
+        margin-left: 5px;
+        font-weight: 500;
+        font-size: 16px;
+    }
+
+    .homeHeadingCertificates {
+        gap: 8px;
+        margin-top: 20px;
+        flex-wrap: wrap;
+    }
+
+    .homeHeadingEnroll {
+        flex-direction: column;
+    }
+
+    .homeHeadingEnrollbtn {
+        justify-content: center;
+        gap: 12px;
+        padding: 20px 32px 20px 32px;
+        border-radius: 16px;
+        width: 312px;
+    }
+
+    .homeHeadingEnrollSpan {
+        font-size: 16px;
+    }
+
+    .homeHeadingEnrollImg {
+        width: 18px;
+        height: 18px;
+    }
+
+    .homeHeadingStats {
+        display: none;
+    }
+
+    .homeCourses {
+        margin-top: 40px;
+        height: auto;
+    }
+
+    .homeCoursesHeading1 {
+        margin-top: 44px;
+        padding: 16px 20px 14px 20px;
+        font-weight: 500;
+        font-size: 14px;
+    }
+
+    .homeCoursesHeading2 {
+        font-weight: 700;
+        font-size: 24px;
+        display: block;
+    }
+
+    .gradientScience {
+        margin-left: 10px;
+    }
+
+    .restOfText {
+        margin-left: 10px;
+    }
+
+    .homeSteps {
+        margin-top: 40px;
+    }
+
+    .homeStepsHeading {
+        margin-top: 31px;
+        font-weight: 700;
+        font-size: 24px;
+    }
+
+    .homeStepsRefundable {
+        gap: 12px;
+        border-radius: 32px;
+        background: linear-gradient(180deg, #9849FF 0%, #841EE3 93.51%);
+        padding: 20px;
+        width: 84vw;
+        margin-top: 32px;
+    }
+
+    .homeStepsRefundableEmoji {
+        font-weight: 700;
+        font-size: 28px;
+        color: white;
+    }
+
+    .homeStepsWorking {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 56px;
+        gap: 40px;
+    }
+
+    .homeStepsWorkingHeading {
+        font-weight: 700;
+        font-size: 24px;
+        color: #450D45;
+    }
+
+    .homeStepsAll {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 32px;
+    }
+
+    .homeSteps1 {
+        align-items: flex-start;
+        gap: 22px;
+        flex-direction: row;
+    }
+
+    .homeSteps1Div {
+        margin-top: 0px;
+        border-radius: 18px;
+        padding: 16px;
+    }
+
+    .homeSteps1_1 {
+        font-size: 16px;
+    }
+
+    .homeSteps2 {
+        align-items: flex-start;
+        gap: 22px;
+        flex-direction: row;
+    }
+
+    .homeSteps2Div {
+        margin-top: 0px;
+        border-radius: 18px;
+        padding: 16px;
+    }
+
+    .homeSteps2_1 {
+        font-size: 16px;
+    }
+
+    .homeSteps2_2 {
+        gap: 4px;
+        padding: 16px;
+        border-radius: 8px;
+    }
+
+    .homeSteps2_2_1 {
+        font-size: 32px;
+    }
+
+    .homeSteps2_2_2 {
+        font-size: 12px;
+    }
+
+    .homeSteps3 {
+        align-items: flex-start;
+        gap: 22px;
+        flex-direction: row;
+    }
+
+    .homeSteps3Div {
+        margin-top: 0px;
+        border-radius: 18px;
+        padding: 16px;
+    }
+
+    .homeSteps3_1 {
+        font-size: 16px;
+    }
+
+    .homeSteps3_2 {
+        border-radius: 8px;
+        padding: 4px;
+    }
+
+    .homeSteps3_2_1{
+        font-size: 20px;
+    }
+
+    .homeSteps3_2_2 {
+        font-size: 12px;
+    }
+
+
+    .certificatesHeading {
+        /* width: 70vw; */
+        display: block;
+        font-weight: 700;
+        font-size: 24px;
+    }
+
+    .certificatesHeading2 {
+        margin-left: 10px;
+    }
+
+    .certificatesHeading3 {
+        margin-left: 10px;
+    }
+
+    .certificatesHeading4 {
+        margin-left: 10px;
+    }
+
+    .certficatesDiv {
+        flex-direction: column;
+    }
+
+    .certifcatesDiv1 {
+        gap: 20px;
+        border-radius: 16px;
+        padding: 20px;
+    }
+
+    .certifcatesDiv1Heading {
+        font-weight: 600;
+        font-size: 20px;
+    }
+
+    .certifcatesDiv1Img {
+        width: 256px;
+        height: 180.98px;
+        border-radius: 6.16px;
+        border: 0.41px solid #E9D3E9;
+    }
+
+    .certifcatesDiv1Btns {
+        display: flex;
+        align-items: center;
+        gap: 14px;
+        margin-top: 30px;
+    }
+
+    .cerrificatesTagsImg {
+        display: none;
+    }
+
+    .cerrificatesTagsSpan {
+        font-weight: 500;
+        font-size: 12px;
+    }
+
+    .certifcatesDiv2 {
+        padding: 20px;
+        border-radius: 16px;
+    }
+
+    .certifcatesDiv2_1_1 {
+        font-size: 20px;
+    }
+
+    .certifcatesDiv2_2 {
+        width: 252px;
+        height: 252px;
+    }
+
+    .internship {
+        margin-top: 55px;
+        padding: 31px 30px 88px 29px;
+    }
+
+    .intershipHeading {
+        font-weight: 700;
+        font-size: 36px;
+        background: linear-gradient(180deg, #B872D0 0%, #372FAA 100%);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+    }
+
+    .internshipDetails {
+        display: none;
+    }
+
+    .internshipDetails1 {
+        display: block;
+        margin-top: 40px;
+    }
+
+    .internshipBtn {
+        margin-top: 31px;
+    }
+
+
 }
