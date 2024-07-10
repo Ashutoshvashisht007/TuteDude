@@ -99,7 +99,8 @@ const Home = () => {
           <span className='homeStepsWorkingHeading'>How does it work?</span>
           <div className='homeStepsAll'>
             <div className="homeSteps1">
-              <img src="images/step1.png" alt="Step 1" />
+              <img src="images/step1.png" alt="Step 1" className='horizontal1'/>
+              <img src="images/one.png" alt="Step 1" className='imgOne1'/>
               <div className='homeSteps1Div'>
                 <span className='homeSteps1_1'>Step 1 : Enroll into your favorite course for only ₹1,499</span>
                 <img style={{ width: "107px", height: "69px", marginTop: "16px" }} src="images/Frame.png" alt="Frame" />
@@ -107,7 +108,8 @@ const Home = () => {
               </div>
             </div>
             <div className="homeSteps2">
-              <img src="images/step2.png" alt="Step 2" />
+              <img src="images/step2.png" alt="Step 2" className='horizontal2'/>
+              <img src="images/two.png" alt="Step 1" className='imgTwo2'/>
               <div className='homeSteps2Div'>
                 <span className='homeSteps2_1'>Step 2: Complete Course & Assignments within 2 Years!</span>
                 <div className='homeSteps2_2'>
@@ -118,7 +120,8 @@ const Home = () => {
               </div>
             </div>
             <div className="homeSteps3">
-              <img src="images/step3.png" alt="Step 3" />
+              <img src="images/step3.png" alt="Step 3" className='horizontal3'/>
+              <img src="images/three.png" alt="Step 1" className='imgThree3'/>
               <div className='homeSteps3Div'>
                 <span className='homeSteps3_1'>Step 3: Receive 100% Refund upon completion</span>
                 <div className='homeSteps3_2'>

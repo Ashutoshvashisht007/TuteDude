@@ -614,6 +614,18 @@
     cursor: pointer;
 }
 
+.imgOne1{
+    display: none;
+}
+
+.imgTwo2{
+    display: none;
+}
+
+.imgThree3{
+    display: none;
+}
+
 @media only screen and (max-width: 800px) {
     .homeHeading {
         padding: 28px 24px 28px 24px;
@@ -742,6 +754,28 @@
         align-items: center;
         flex-direction: column;
         gap: 32px;
+    }
+
+    .horizontal1{
+        display: none;
+    }
+
+    .horizontal2{
+        display: none;
+    }
+
+    .horizontal3{
+        display: none;
+    }
+
+    .imgOne1{
+        display: flex;
+    }
+    .imgTwo2{
+        display: flex;
+    }
+    .imgThree3{
+        display: flex;
     }
 
     .homeSteps1 {
